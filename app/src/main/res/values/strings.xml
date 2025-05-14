@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ОРЛКТС">Определитель рака легких по КТ снимку</string>
+    <string name="ВСКТСЛ">Выберите свой КТ снимок легких</string>
+    <string name="jpeg_jpg_png">.jpeg, .jpg, .png</string>
+    <string name="image_picker_in_android">Image Picker in Android</string>
+</resources>
