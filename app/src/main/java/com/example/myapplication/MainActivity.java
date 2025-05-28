@@ -60,11 +60,11 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(Intent.ACTION_PICK);
             i.setType("image/*");
 
-            someActivityResultLauncher.launch(i);
+            ImagePickerResultLauncher.launch(i);
         });
     }
 
-    ActivityResultLauncher<Intent> someActivityResultLauncher = registerForActivityResult(
+    ActivityResultLauncher<Intent> ImagePickerResultLauncher = registerForActivityResult(
             new ActivityResultContracts.StartActivityForResult(),
             new ActivityResultCallback<ActivityResult>() {
                 @Override
