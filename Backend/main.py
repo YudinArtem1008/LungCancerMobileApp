@@ -36,13 +36,6 @@ def classify():
     if pred == 1:
         return "malignant"
     return "normal"
-    # print(img.shape)
-    # return "YES!"
-
-
-@app.route('/abc')
-def abc():
-    return "Aboba2281337"
 
 
 if __name__ == '__main__':
